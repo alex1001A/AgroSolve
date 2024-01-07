@@ -5,7 +5,6 @@
 // font-family: 'Inter', sans-serif; 300/400
 
 :root {
-
     // Font Family
     --Roboto-flex-font-family: 'Roboto Flex', sans-serif;
     --Montserrat-font-family: 'Montserrat', sans-serif;
@@ -21,6 +20,7 @@
     --nav-font: 400 .75rem/1.125rem var(--Roboto-flex-font-family);
     --hero-subtitle-font: 300 2rem/2.2rem var(--Inter-font-family);
     --hero-bottom-font: 400 1.25rem/1.25rem var(--Inter-font-family);
+    --hit-font: 600 1.5rem/normal var(--Roboto-flex-font-family);
 }
 
 // Header

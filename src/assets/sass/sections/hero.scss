@@ -9,8 +9,9 @@
     &__img {
         position: absolute;
         right: 0;
-        top: 47%;
+        top: 43%;
         transform: translateY(-50%);
+        z-index: 1;
     }
 }
 
@@ -36,10 +37,12 @@
 .hero-row {
     display: flex;
     flex-direction: column;
+    z-index: 2;
 
     .hero__title {
         max-width: 55.625rem;
         margin-bottom: 1.875rem;
+        font-size: 3.375rem;
     }
 
     .hero__subtitle {
@@ -63,12 +66,36 @@
 
 .hero__bottom {
     background-color: var(--color-Grey-1);
+    padding: 2.1875rem 0;
 
-    &--list {
+    &--row {
         display: flex;
-        justify-content: center;
-        gap: 25rem;
-        padding: 2.1875rem 0;
+        justify-content: space-between;
+        position: relative;
+        max-width: 64.375rem;
+
+        &::before {
+            position: absolute;
+            content: '';
+            display: block;
+            height: 20px;
+            width: .0625rem;
+            left: 33%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-color: var(--color-white);
+        }
+
+        &::after {
+            position: absolute;
+            content: '';
+            display: block;
+            height: 20px;
+            width: .0625rem;
+            right: 32%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-color: var(--color-white);
+        }
     }
 }
-

@@ -1,0 +1,12 @@
+.hit {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.5rem;
+    height: 3.125rem;
+    border: .125rem solid var(--color-orange);
+    color: var(--color-orange);
+    font: var(--hit-font);
+    border-radius: 1.75rem;
+}

@@ -11,14 +11,11 @@
     }
 }
 
-.header__container {
-    padding: 1.0625rem 0;
-}
-
 .header-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1.0625rem 0;
 
     &__contacts {
         display: flex;
