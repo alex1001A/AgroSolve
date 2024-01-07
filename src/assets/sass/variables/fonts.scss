@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Montserrat:wght@300;500;600&family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400;8..144,600;8..144,700&display=swap');
+
+// font-family: 'Roboto Flex', sans-serif; 200/300/400/600/700
+// font-family: 'Montserrat', sans-serif; 400/500/600
+// font-family: 'Inter', sans-serif; 300/400
+
+
+
+:root {
+
+    // Font Family
+    --Roboto-flex-font-family: 'Roboto Flex', sans-serif;
+    --Montserrat-font-family: 'Montserrat', sans-serif;
+    --Inter-font-family: 'Inter', sans-serif;
+
+    // Text fonts
+    --main-text-font: 200 1.375rem/1.5125rem var(--Roboto-flex-font-family);
+    --section-title-text-font: 600 3rem/3.3rem var(--Montserrat-font-family);
+    --section-title-accent-text-font: 300 3rem/3.3rem var(--Montserrat-font-family);
+    --block-title-font: 600 1.5rem/1.65rem var(--Roboto-flex-font-family);
+    --header-contacts-font: 600 .875rem/.9625rem var(--Roboto-flex-font-family);
+}
+
+// Header
+.header-contacts {
+    font: var(--header-contacts-font);
+    letter-spacing: .0175rem;
+    color: var(--color-accent-green);
+}
+
+
+// Title
+.section-title {
+    font: var(--section-title-text-font);
+    text-transform: uppercase;
+    letter-spacing: .06rem;
+}
+.section-title-accent {
+    font: var(--section-title-accent-text-font);
+    text-transform: uppercase;
+    letter-spacing: .06rem;
+}
+
+
+// Text
+.text {
+    font: var(--main-text-font);
+    letter-spacing: .0275rem;
+}
