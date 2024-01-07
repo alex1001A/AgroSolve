@@ -1,0 +1,21 @@
+button {
+    letter-spacing: .025rem;
+    cursor: pointer;
+    padding: 1.1875rem 2.4375rem;
+    text-align: center;
+    border-radius: .25rem;
+    font: var(--button-font);
+}
+
+.button-green {
+    background-color: var(--color-accent-green);
+    font: var(--button-font);
+    border: none;
+}
+
+.button-black {
+    border: 1px solid var(--color-accent-green);
+    font: var(--button-font);
+    background: transparent;
+    color: inherit;
+}

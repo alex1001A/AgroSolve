@@ -4,8 +4,6 @@
 // font-family: 'Montserrat', sans-serif; 400/500/600
 // font-family: 'Inter', sans-serif; 300/400
 
-
-
 :root {
 
     // Font Family
@@ -19,13 +17,26 @@
     --section-title-accent-text-font: 300 3rem/3.3rem var(--Montserrat-font-family);
     --block-title-font: 600 1.5rem/1.65rem var(--Roboto-flex-font-family);
     --header-contacts-font: 600 .875rem/.9625rem var(--Roboto-flex-font-family);
+    --button-font: 400 1.25rem/1.25rem var(--Roboto-flex-font-family);
+    --nav-font: 400 .75rem/1.125rem var(--Roboto-flex-font-family);
+    --hero-subtitle-font: 300 2rem/2.2rem var(--Inter-font-family);
+    --hero-bottom-font: 400 1.25rem/1.25rem var(--Inter-font-family);
 }
 
 // Header
-.header-contacts {
+.header-row {
     font: var(--header-contacts-font);
     letter-spacing: .0175rem;
     color: var(--color-accent-green);
+}
+
+// Hero
+.hero__subtitle {
+    font: var(--hero-subtitle-font);
+}
+
+.hero__bottom {
+    font: var(--hero-bottom-font);
 }
 
 
@@ -40,7 +51,6 @@
     text-transform: uppercase;
     letter-spacing: .06rem;
 }
-
 
 // Text
 .text {

@@ -1,0 +1,13 @@
+.side-borders {
+    color: red;
+    position: relative;
+
+    &::before {
+        position: absolute;
+        content: '';
+        display: block;
+        height: 1rem;
+        width: .0625rem;
+        background-color: var(--color-white);
+    }
+}

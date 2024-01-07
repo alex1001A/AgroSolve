@@ -1,25 +1,24 @@
-// Variables
+// // Variables
 @import './variables/color.scss';
 @import './variables/fonts.scss';
 
-// Global
+// // Global
 @import './global/reset.scss';
 @import './global/global.scss';
 
-// Common
-@import './common/button-green.scss';
-@import './common/button-black.scss';
+// // Common
+@import './common/buttons.scss';
 @import './common/social-icons.scss';
 @import './common/header.scss';
-@import './common/footer.scss';
+// @import './common/footer.scss';
 
-// Pages
+// // Pages
 @import './sections/hero.scss';
-@import './sections/bestseller.scss';
-@import './sections/innovations.scss';
-@import './sections/xag.scss';
-@import './sections/advantages.scss';
-@import './sections/everyone.scss';
-@import './sections/services.scss';
-@import './sections/reviews.scss';
-@import './sections/request.scss';
+// @import './sections/bestseller.scss';
+// @import './sections/innovations.scss';
+// @import './sections/xag.scss';
+// @import './sections/advantages.scss';
+// @import './sections/everyone.scss';
+// @import './sections/services.scss';
+// @import './sections/reviews.scss';
+// @import './sections/request.scss';
