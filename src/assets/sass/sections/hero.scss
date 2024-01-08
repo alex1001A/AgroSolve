@@ -11,7 +11,6 @@
         right: 0;
         top: 43%;
         transform: translateY(-50%);
-        z-index: 1;
     }
 }
 
@@ -24,20 +23,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font: var(--nav-font);
-    letter-spacing: .015rem;
     margin-bottom: 9.0625rem;
-}
-
-.hero__menu-list {
-    display: flex;
-    gap: 2rem;
 }
 
 .hero-row {
     display: flex;
     flex-direction: column;
-    z-index: 2;
 
     .hero__title {
         max-width: 55.625rem;

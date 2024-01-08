@@ -1,0 +1,11 @@
+.contacts {
+    display: flex;
+    gap: 1.875rem;
+    color: var(--color-accent-green);
+    font: var(--header-contacts-font);
+    letter-spacing: .0175rem;
+    
+    &__item:first-child {
+        color: var(--color-white);
+    }
+}

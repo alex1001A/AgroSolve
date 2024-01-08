@@ -1,7 +1,8 @@
-.bestseller__container {}
+.bestseller {
+    padding: 10rem 0;
+}
 
 .bestseller__container {
-    padding-top: 10rem;
     display: flex;
     flex-direction: column;
     gap: 6.25rem;
@@ -9,6 +10,7 @@
 
 .bestseller__row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -33,6 +35,7 @@
 
 .bestseller__item--content {
     display: flex;
+    padding: 1.5625rem 2.5rem;
     gap: 2rem;
     line-height: normal;
     color: var(--color-white);

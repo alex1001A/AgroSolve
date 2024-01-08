@@ -1,0 +1,47 @@
+.innovations {
+    padding-bottom: 10rem;
+}
+
+.innovations__container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.75rem;
+}
+.innovations__title-row {
+    display: flex;
+    gap: 1.625rem; 
+
+    .innovations__img {
+        border-radius: 1.3125rem;
+    }
+}
+
+.innovations__title-row--content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.innovations__row {
+    display: flex;
+    gap: 1.25rem;
+}
+.innovations__item {
+    background-color: var(--color-Grey-1);
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 3.125rem 2.5rem;
+    max-width: 34.375rem;
+
+    .innovations--icon {
+        color: var(--color-accent-green);
+    }
+}
+
+.innovations__item--column {
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+}
