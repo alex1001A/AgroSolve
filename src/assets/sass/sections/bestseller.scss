@@ -12,6 +12,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @media (max-width: 1134px) {
+        justify-content: center;
+    }
 }
 
 .bestseller__item {
@@ -19,13 +23,9 @@
     flex-direction: column;
     align-items: center;
     width: 34.1875rem;
-    position: relative;
 
     .hit {
-        position: absolute;
-        left: 0;
-        top: 0;
-        transform: translateY(-100%);
+        align-self: flex-start;
     }
 
     .bestseller__img {

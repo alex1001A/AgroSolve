@@ -34,16 +34,22 @@
         max-width: 55.625rem;
         margin-bottom: 1.875rem;
         font-size: 3.375rem;
+        position: relative;
+        z-index: 2;
     }
 
     .hero__subtitle {
         margin-bottom: 3.75rem;
+        position: relative;
+        z-index: 2;
     }
 
     .hero__button-row {
         display: flex;
         gap: 1.5625rem;
         margin-bottom: 16.9375rem;
+        position: relative;
+        z-index: 2;
 
         .hero__button-green {
             padding: 1.1875rem 3.9063rem;
