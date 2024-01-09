@@ -1,32 +1,31 @@
 .xag {
     padding-bottom: 12.5rem;
-    padding: 0 7.5rem 12.5rem 7.5rem;
 }
 
-.xag__container {
+.xag__wrapper {
     background-color: var(--color-Grey-1);
     border-radius: .6875rem;
     display: flex;
     flex-direction: column;
-    max-width: 105rem;
-    padding: 1.0625rem 9.0625rem 3.75rem 9.0625rem;
-    
+    align-items: center;
+    padding-bottom: 60px;
 }
 
 .xag-row {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 300px;
 
-    @media (max-width: 87.5rem) {
+    @media (max-width: 90rem) {
         flex-direction: column;
+        gap: 40px;
     }
 }
 
 .xag__title {
     margin-bottom: 1.25rem;
 
-    @media (max-width: 87.5rem) {
+    @media (max-width: 90rem) {
         margin-top: 1.875rem;
     }
 }
@@ -56,15 +55,79 @@
     width: 100%;
 }
 
-.xag__item {
-    background-color: var(--color-black-bg);
+.xag__cards {
     display: flex;
+    gap: 1.25rem;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    gap: .375rem;
-    padding: 1.25rem 0 1.25rem 1.25rem;
-    border-radius: .375rem;
+    max-width: 1380px;
+
+    @media (max-width: 90rem) {
+        display: grid;
+        grid-template-columns: repeat(3, 325px);
+    }
+
+    @media (max-width: 68.125rem) {
+        display: grid;
+        grid-template-columns: repeat(2, 325px);
+    }
+
+    // @media (max-width: 1440px) {
+    //     flex-direction: column;
+    // }
+
+    .xag__item {
+        background-color: var(--color-black-bg);
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        gap: .375rem;
+        padding: 1.25rem 0 1.25rem 1.25rem;
+        border-radius: .375rem;
+    }
+
+    .xag__item:nth-child(1) {
+        min-width: 20.3125rem;
+    }
+
+    .xag__item:nth-child(2) {
+        min-width: 240px;
+    }
+
+    .xag__item:nth-child(3) {
+        min-width: 240px;
+    }
+
+    .xag__item:nth-child(4) {
+        min-width: 253px;
+    }
+
+    .xag__item:nth-child(5) {
+        min-width: 240px;
+    }
+
+    .xag__item:nth-child(6) {
+        min-width: 20.3125rem;
+    }
+
+    .xag__item:nth-child(7) {
+        min-width: 240px;
+    }
+
+    .xag__item:nth-child(8) {
+        min-width: 240px;
+    }
+
+    .xag__item:nth-child(9) {
+        min-width: 253px;
+    }
+
+    .xag__item:nth-child(10) {
+        min-width: 240px;
+    }
+
+
+
 }
 
 .xag__text-title {

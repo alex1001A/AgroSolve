@@ -1,0 +1,41 @@
+.advantages {
+    padding-bottom: 11.25rem;
+}
+
+.advantages__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 96.5rem;
+}
+
+.advantages__img {
+    max-width: 792px;
+    max-height: 36.3125rem;
+}
+
+.advantages__column {
+    max-width: 34.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+}
+
+.advantages__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+}
+
+.advantages__item {
+    background-color: var(--color-Grey-1);
+    padding: 1.875rem 2.5rem 1.875rem 2.5rem;
+
+    & svg {
+        color: var(--color-accent-green);
+        margin-bottom: .625rem;
+    }
+
+    .title-text {
+        margin-bottom: 1rem;
+    }
+}
