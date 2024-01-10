@@ -1,52 +1,52 @@
 .reviews {
-    padding-bottom: 177px;
+    padding-bottom: 11.0625rem;
 }
 
 .reviews__container {
     display: flex;
     flex-direction: column;
-    gap: 79px;
+    gap: 4.9375rem;
 }
 
 .reviews__row {
     display: flex;
-    justify-content: space-between;
+    gap: 1.0625rem;
 }
 
 .reviews__item {
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    max-width: 547px;
-    padding: 50px 75px;
+    gap: 1.875rem;
+    max-width: 34.1875rem;
+    padding: 3.125rem 4.6875rem;
     background-color: var(--color-Grey-1);
-    border-radius: 8px;
+    border-radius: .5rem;
 
     .reviews__item-review {
         display: flex;
-        gap: 18px;
+        gap: 1.125rem;
 
         &--photo {
-            border-radius: 6px;
+            border-radius: .375rem;
         }
 
         &__content {
             display: flex;
             flex-direction: column;
-            gap: 8px;
+            gap: .5rem;
 
             &--name {
                 font: var( --main-title-text-font);
-                line-height: 24px;
-                letter-spacing: 0.48px;
+                line-height: 1.5rem;
+                letter-spacing: .03rem;
                 font-family: var(--Montserrat-font-family);
             }
 
             &--position {
-                font-size: 18px;
+                font-size: 1.125rem;
                 font-weight: 500;
-                line-height: 18px;
-                letter-spacing: 0.36px;
+                line-height: 1.125rem;
+                letter-spacing: .0225rem;
                 font-family: var(--Montserrat-font-family);
             }
         }

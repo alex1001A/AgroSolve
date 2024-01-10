@@ -123,10 +123,10 @@
                             Підніміть Ваше Фермерство на Новий Рівень
                         </p>
                         <div class="hero__button-row">
-                            <button class="button-green hero__button-green" href="">
+                            <button class="button-green hero__button-green">
                                 Перейти до магазину
                             </button>
-                            <button class="button-black hero__button-black" href="">
+                            <button class="button-black hero__button-black">
                                 Замовити ЗЗР
                             </button>
                         </div>
@@ -324,10 +324,10 @@
                                 обробити до 30га акрів за годину, ідеальний для інтенсивного агробізнесу.
                             </p>
                             <div class="xag__button-row">
-                                <button class="button-green xag__button-green" href="#">
+                                <button class="button-green xag__button-green">
                                     Переглянути XAG P100 Pro
                                 </button>
-                                <button class="button-black xag__button-black" href="#">
+                                <button class="button-black xag__button-black">
                                     Перейти до магазину
                                 </button>
                             </div>
@@ -618,10 +618,10 @@
                                 </p>
                             </div>
                             <div class="services__button-row">
-                                <button class="button-green services__button-row--green" href="#">
+                                <button class="button-green services__button-row--green">
                                     Замовити
                                 </button>
-                                <button class="button-black services__button-row--black" href="#">
+                                <button class="button-black services__button-row--black">
                                     Детальніше
                                 </button>
                             </div>
@@ -685,17 +685,30 @@
         </section>
 
         <section class="request">
-            <div class="container">
+            <div class="container request__container">
                 <div class="request__content">
-                    <h1 class="section-title">ОФОРМИТИ ЗАЯВКУ ТА ОТРИМАТИ КОНСУЛЬТАЦІЮ</h1>
-                    <p class="text">Залишіть свої контактита наші спеціалісти передзвонять 
+                    <h1 class="section-title request__title">ОФОРМИТИ ЗАЯВКУ ТА ОТРИМАТИ КОНСУЛЬТАЦІЮ</h1>
+                    <p class="text">
+                        Залишіть свої контактита наші спеціалісти передзвонять
                         вам, дадуть відповіді на всі запитаннята допоможуть оформити замовлення.
                     </p>
-                    <img class="requst__img" src="" alt="image">
-                    <img class="requst__stripes" src="" alt="stripe" width="">
-                    <img class="requst__stripes" src="" alt="stripe" width="">
+                    <img class="requst__img" src="@@webRoot/img/request/copter.jpg" alt="image" width="840">
+                    <img class="requst__stripes requst__stripes--left" src="@@webRoot/img/request/stripe-left.svg" alt="stripe" width="">
+                    <img class="requst__stripes requst__stripes--right" src="@@webRoot/img/request/stripe-right.svg" alt="stripe" width="">
                 </div>
-                <form action="" class="form"></form>
+                <form action="" class="form">
+                    <div class="form__name">
+                        <label for="name">Ваше ім‘я</label>
+                        <input id="name" type="text">
+                    </div>
+                    <div class="form__number">
+                        <label for="number">Ваш номер телефону</label>
+                        <input id="number" type="tel">
+                    </div>
+                    <button class="button-green request__button--green">
+                        Замовити
+                    </button>
+                </form>
             </div>
         </section>
 
