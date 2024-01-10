@@ -71,6 +71,15 @@
         position: relative;
         max-width: 64.375rem;
 
+        a {
+            transition: all 0.5s;
+
+            &:hover {
+                color: var(--color-accent-green);
+                transform: scale(1.2);
+            }
+        }
+
         &::before {
             position: absolute;
             content: '';

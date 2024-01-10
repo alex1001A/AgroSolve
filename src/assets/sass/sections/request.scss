@@ -5,6 +5,7 @@
 .request__container {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .request__content {
@@ -24,7 +25,6 @@
 
 .requst__stripes {
     position: absolute;
-
 }
 
 .requst__stripes--left {
@@ -33,25 +33,11 @@
 }
 
 .requst__stripes--right {
-
-}
-
-.requst__stripes {
-
+    bottom: 0;
+    right: -400px;
 }
 
 .form {
-
+    min-width: 684px;
 }
 
-.form__name {
-
-}
-
-.form__number {
-
-}
-
-.request__button--green {
-
-}

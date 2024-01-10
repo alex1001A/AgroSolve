@@ -3,4 +3,13 @@
     font: var(--nav-font);
     letter-spacing: .015rem;
     gap: 2rem;
+
+    a {
+        transition: all 0.5s;
+
+        &:hover {
+            color: var(--color-accent-green);
+        }
+
+    }
 }

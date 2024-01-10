@@ -5,6 +5,13 @@ button {
     text-align: center;
     border-radius: .25rem;
     font: var(--button-font);
+    transition: all 0.5s;
+
+    &:hover {
+        opacity: 0.8;
+        box-shadow: 9px 9px 6px 4px rgba(159, 159, 165, 0.2);
+        transform: scale(1.05);
+    }
 }
 
 .button-green {
