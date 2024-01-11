@@ -1,52 +1,66 @@
 .reviews {
-    padding-bottom: 11.0625rem;
+    padding-bottom: 177px;
+
+    @media (max-width: $media-lg) {
+        padding-bottom: 100px;
+    }
 }
 
 .reviews__container {
     display: flex;
     flex-direction: column;
-    gap: 4.9375rem;
+    gap: 79px;
+
+    @media (max-width: $media-xxl) {
+        display: flex;
+        align-items: center;
+    }
 }
 
 .reviews__row {
     display: flex;
-    gap: 1.0625rem;
+    gap: 17px;
+
+    @media (max-width: $media-xxl) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .reviews__item {
     display: flex;
     flex-direction: column;
-    gap: 1.875rem;
-    max-width: 34.1875rem;
-    padding: 3.125rem 4.6875rem;
+    gap: 30px;
+    max-width: 547px;
+    padding: 50px 75px;
     background-color: var(--color-Grey-1);
-    border-radius: .5rem;
+    border-radius: 8px;
 
     .reviews__item-review {
         display: flex;
-        gap: 1.125rem;
+        gap: 18px;
 
         &--photo {
-            border-radius: .375rem;
+            border-radius: 6px;
         }
 
         &__content {
             display: flex;
             flex-direction: column;
-            gap: .5rem;
+            gap: 8px;
 
             &--name {
                 font: var( --main-title-text-font);
-                line-height: 1.5rem;
-                letter-spacing: .03rem;
+                line-height: 24px;
+                letter-spacing: .48px;
                 font-family: var(--Montserrat-font-family);
             }
 
             &--position {
-                font-size: 1.125rem;
+                font-size: 18px;
                 font-weight: 500;
-                line-height: 1.125rem;
-                letter-spacing: .0225rem;
+                line-height: 18px;
+                letter-spacing: .36px;
                 font-family: var(--Montserrat-font-family);
             }
         }

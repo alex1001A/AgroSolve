@@ -1,12 +1,21 @@
 .services {
     padding-bottom: 160px;
     margin: 0 auto;
+
+    @media (max-width: 1480px) {
+        text-align: center;
+        padding-bottom: 100px;
+    }
 }
 
 .services__container {
     display: flex;
     flex-direction: column;
     gap: 60px;
+
+    @media (max-width: $media-xxl) {
+        align-items: center;
+    }
 }
 
 .services__column {
@@ -19,6 +28,13 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    gap: 20px;
+
+    @media (max-width: 1480px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .services__img {
@@ -47,6 +63,10 @@
 .services__button-row {
     display: flex;
     gap: 22px;
+
+    @media (max-width: 1480px) {
+        justify-content: center;
+    }
 
     &--green {
         padding: 19px 84px;
