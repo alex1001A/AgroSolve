@@ -53,6 +53,10 @@
 .xag__img {
     max-width: 35rem;
     width: 100%;
+
+    @media (max-width: $media-lg) {
+        max-width: 35rem;
+    }
 }
 
 .xag__cards {
@@ -69,6 +73,12 @@
     @media (max-width: 68.125rem) {
         display: grid;
         grid-template-columns: repeat(2, 325px);
+    }
+
+    @media (max-width: $media-lg) {
+        display: grid;
+        grid-template-columns: repeat(1, 325px);
+        gap: 10px;
     }
 
     // @media (max-width: 1440px) {
@@ -125,17 +135,22 @@
     .xag__item:nth-child(10) {
         min-width: 240px;
     }
-
-
-
 }
 
 .xag__text-title {
     font: var(--grid-title-font);
     color: var(--color-orange);
+
+    @media (max-width: $media-lg) {
+        font-size: 15px;
+    }
 }
 
 .xag__text {
     font-size: 18px;
     color: var(--color-Grey-8);
+
+    @media (max-width: $media-lg) {
+        font-size: 12px;
+    }
 }

@@ -17,6 +17,11 @@
 .hero__container {
     display: flex;
     flex-direction: column;
+
+    @media (max-width: $media-lg) {
+        align-items: center;
+        text-align: center;
+    }
 }
 
 .hero__nav {
@@ -36,12 +41,20 @@
         font-size: 3.375rem;
         position: relative;
         z-index: 2;
+
+        @media (max-width: $media-lg) {
+            font-size: 37px;
+        }
     }
 
     .hero__subtitle {
         margin-bottom: 3.75rem;
         position: relative;
         z-index: 2;
+
+        @media (max-width: $media-lg) {
+            font-size: 30px;
+        }
     }
 
     .hero__button-row {
@@ -50,6 +63,10 @@
         margin-bottom: 16.9375rem;
         position: relative;
         z-index: 2;
+
+        @media (max-width: $media-lg) {
+            justify-content: center;
+        }
 
         .hero__button-green {
             padding: 1.1875rem 3.9063rem;

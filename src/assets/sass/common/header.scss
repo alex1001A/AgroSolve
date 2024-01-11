@@ -9,6 +9,10 @@
         height: .0625rem;
         background-color: var(--color-orange);
     }
+
+    @media (max-width: $media-lg) {
+        display: none;
+    }
 }
 
 .header-row {

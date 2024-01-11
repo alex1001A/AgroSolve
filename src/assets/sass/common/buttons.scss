@@ -7,6 +7,8 @@ button {
     font: var(--button-font);
     transition: all 0.5s;
 
+    
+
     &:hover {
         opacity: 0.8;
         box-shadow: 9px 9px 6px 4px rgba(159, 159, 165, 0.2);
@@ -18,6 +20,10 @@ button {
     background-color: var(--color-accent-green);
     font: var(--button-font);
     border: none;
+
+    @media (max-width: $media-lg) {
+        font-size: 15px;
+    }
 }
 
 .button-black {
@@ -25,4 +31,8 @@ button {
     font: var(--button-font);
     background: transparent;
     color: var(--color-accent-green);
+
+    @media (max-width: $media-lg) {
+        font-size: 15px;
+    }
 }

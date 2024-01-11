@@ -9,4 +9,10 @@
     color: var(--color-orange);
     font: var(--hit-font);
     border-radius: 1.75rem;
+
+    @media (max-width: $media-lg) {
+        width: 40px;
+        height: 40px;
+        
+    }
 }

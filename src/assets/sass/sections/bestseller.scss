@@ -1,5 +1,10 @@
 .bestseller {
     padding: 10rem 0;
+
+    @media (max-width: $media-lg) {
+        padding: 5rem 0;
+        text-align: center;
+    }
 }
 
 .bestseller__container {
@@ -26,6 +31,11 @@
 
     .hit {
         align-self: flex-start;
+        font-size: 15px;
+
+        @media (max-width: $media-lg) {
+            align-self: center;
+        }
     }
 
     .bestseller__img {
@@ -47,9 +57,17 @@
     font-size: 1.5rem;
     letter-spacing: .03rem;
     max-width: 15.9375rem;
+
+    @media (max-width: $media-lg) {
+        font-size: 18px;
+    }
 }
 
 .goods-description--big {
     font-size: 2rem;
     letter-spacing: .04rem;
+
+    @media (max-width: $media-lg) {
+        font-size: 25px;
+    }
 }
