@@ -13,7 +13,7 @@
 <body>
 
     <div class="wrapper">
-        <header class="header">
+        <header class="header hide">
             <div class="container header__container">
                 <div class="header-row">
                     <ul class="contacts">
@@ -77,11 +77,17 @@
 
         <section class="hero">
             <div class="container hero__container">
+                
                 <nav class="hero__nav">
                     <a class="logo" href="">
                         <img src="@@webRoot/img/hero/logo.svg" alt="logo-icon">
                     </a>
-                    <ul class="navigation">
+                    <div class="menu-burger">
+                        <div class="menu-burger__line menu-burger__line--first"></div>
+                        <div class="menu-burger__line menu-burger__line--second"></div>
+                        <div class="menu-burger__line menu-burger__line--third"></div>
+                    </div>
+                    <ul class="navigation hero__navigation">
                         <li>
                             <a href="#" class="hero__menu-link--item is-active">
                                 Головна
@@ -150,7 +156,7 @@
             </div>
         </section>
 
-        <section class="bestseller">
+        <section class="bestseller hide">
             <div class="container bestseller__container">
                 <h2 class="bestseller__title section-title">Хіт продажу</h2>
                 <div class="bestseller__row">
@@ -188,7 +194,7 @@
             </div>
         </section>
 
-        <section class="innovations">
+        <section class="innovations hide">
             <div class="container innovations__container">
                 <div class="innovations__title-row">
                     <img class="innovations__img" src="@@webRoot/img/innovations/innov-on-field.jpg" alt="image"
@@ -310,7 +316,7 @@
             </div>
         </section>
 
-        <section class="xag">
+        <section class="xag hide">
             <div class="container xag__container">
                 <div class="xag__wrapper">
                     <div class="xag-row">
@@ -382,7 +388,7 @@
             </div>
         </section>
 
-        <section class="advantages">
+        <section class="advantages hide">
             <div class="container advantages__container">
                 <img class="advantages__img" src="@@webRoot/img/advantages/advantages-copter.png" alt="image"
                     width="792">
@@ -501,7 +507,7 @@
             </div>
         </section>
 
-        <section class="everyone">
+        <section class="everyone hide">
             <div class="container everyone__container">
                 <img class="everyone__img" src="@@webRoot/img/everyone/girl.jpg" alt="image" width="1400">
                 <img class="everyone__stripes stripe-left" src="@@webRoot/img/everyone/stripes-left.svg" alt="stripe">
@@ -559,7 +565,7 @@
             </div>
         </section>
 
-        <section class="services">
+        <section class="services hide">
             <div class="container services__container">
                 <h1 class="section-title">Наші Сервісні послуги</h1>
                 <div class="services__column">
@@ -631,7 +637,7 @@
             </div>
         </section>
 
-        <section class="reviews">
+        <section class="reviews hide">
             <div class="container reviews__container">
                 <h1 class="section-title">Відгуки</h1>
                 <div class="reviews__row">
@@ -684,7 +690,7 @@
             </div>
         </section>
 
-        <section class="request">
+        <section class="request hide">
             <div class="container request__container">
                 <div class="request__content">
                     <h1 class="section-title request__title">ОФОРМИТИ ЗАЯВКУ ТА ОТРИМАТИ КОНСУЛЬТАЦІЮ</h1>
@@ -703,20 +709,20 @@
                     <input id="name" type="text" placeholder="Андрій">
                     <label for="number">Ваш номер телефону</label>
                     <input id="number" type="tel" placeholder="+380 00 00 000">
-                    <button class="button-green request__button--green">
+                    <button class="button-green request__button--green" type="submit">
                         Відправити
                     </button>
                 </form>
             </div>
         </section>
 
-        <footer class="footer">
+        <footer class="footer ">
             <div class="container footer__container">
                 <a class="logo footer__logo" href="">
                     <img src="@@webRoot/img/hero/logo.svg" alt="logo-icon">
                 </a>
                 <div class="footer__nav">
-                    <ul class="navigation">
+                    <ul class="navigation footer__navigation">
                         <li>
                             <a href="" class="footer__link">
                                 Головна

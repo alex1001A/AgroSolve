@@ -5,8 +5,10 @@
 // // Global
 @import './global/reset.scss';
 @import './global/global.scss';
+@import './common/media.scss';
 
 // // Common
+@import './common/menu-burger.scss';
 @import './common/contacts.scss';
 @import './common/navigation.scss';
 @import './common/buttons.scss';

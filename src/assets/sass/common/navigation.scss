@@ -13,3 +13,25 @@
 
     }
 }
+
+.hero__navigation {
+    @media (max-width: $media-lg) {
+        display: none;
+    }
+}
+
+.active-menu {
+    display: block
+}
+
+
+
+.footer__navigation {
+
+    @media (max-width: $media-lg) {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
