@@ -23,6 +23,13 @@
 
 .footer__logo {
     margin-bottom: 2.8125rem;
+
+    img {
+        @media (max-width: $media-sm-576) {
+            max-width: 250px;
+        }
+    }
+
 }
 
 .footer__nav {
@@ -31,6 +38,14 @@
     align-items: center;
     gap: 2.8125rem;
     margin-bottom: 5.3125rem;
+
+    .footer__contacts {
+        @media (max-width: $media-sm-576) {
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+    }
 }
 
 .footer__rights {
@@ -39,4 +54,8 @@
     font-size: 1.0625rem;
     font-weight: 300;
     line-height: 1.5rem;
+
+    @media (max-width: $media-sm-576) {
+        font-size: 12px;
+    }
 }

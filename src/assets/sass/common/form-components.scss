@@ -10,6 +10,10 @@ label {
     line-height: 35.2px;
     letter-spacing: 0.64px;
     display: block;
+
+    @media (max-width: $media-lg) {
+        font-size: 120%;
+    }
 }
 
 input {
@@ -31,15 +35,27 @@ input {
         font-weight: 300;
         line-height: 26.4px;
         letter-spacing: 0.48px;
+
+        @media (max-width: $media-lg) {
+            font-size: 18px;
+        }
     }
 }
 
 #name {
     margin-bottom: 50px;
+
+    @media (max-width: $media-lg) {
+        margin-bottom: 25px;
+    }
 }
 
 #number {
     margin-bottom: 60px;
+
+    @media (max-width: $media-lg) {
+        margin-bottom: 25px;
+    }
 }
 
 .request__button--green {

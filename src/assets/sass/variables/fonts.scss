@@ -19,7 +19,8 @@
     --header-contacts-font: 600 .875rem/.9625rem var(--Roboto-flex-font-family);
     --button-font: 400 1.25rem/1.25rem var(--Roboto-flex-font-family);
     --nav-font: 400 .75rem/1.125rem var(--Roboto-flex-font-family);
-    --hero-subtitle-font: 300 2rem/2.2rem var(--Inter-font-family);
+    --hero-subtitle-font: 300 32px/35.2px var(--Inter-font-family);
+    --hero-hide-title-font: 600 20px/25px var(--Inter-font-family);
     --hero-bottom-font: 400 1.25rem/1.25rem var(--Inter-font-family);
     --hit-font: 600 1.5rem/normal var(--Roboto-flex-font-family);
     --grid-title-font: 600 1.125rem/1.2375rem var(--Roboto-flex-font-family);
@@ -33,6 +34,12 @@
 }
 
 // Hero
+.hero__title--for-mobile{
+    font: var(--hero-hide-title-font);
+    font-style: italic;
+    text-transform: uppercase;
+}
+
 .hero__subtitle {
     font: var(--hero-subtitle-font);
 }
