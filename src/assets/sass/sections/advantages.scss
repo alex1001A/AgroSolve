@@ -9,7 +9,7 @@
 .advantages__container {
     display: flex;
     justify-content: space-between;
-    max-width: 1544px;
+    position: relative;
 
     @media (max-width: $media-xxl) {
         display: flex;
@@ -23,16 +23,24 @@
 .advantages__img {
     max-width: 49.5rem;
     max-height: 36.3125rem;
+    position: sticky;
+    top: 0;
 
     @media (max-width: $media-lg) {
         max-width: 49.5rem;
         width: 100%;
+        margin-bottom: 20px;
     }
 }
 
 .advantages__title {
     @media (max-width: $media-lg) {
         font-size: 2.1875rem;
+    }
+
+    @media (max-width: $media-sm-576) {
+        font-size: 1.5625rem;
+        line-height: 35px;
     }
 }
 

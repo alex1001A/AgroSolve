@@ -1,11 +1,19 @@
 .innovations {
     padding-bottom: 10rem;
+
+    @media (max-width: $media-sm-576) {
+        padding-bottom: 100px;
+    }
 }
 
 .innovations__container {
     display: flex;
     flex-direction: column;
-    gap: 3.75rem;
+    gap: 1.875rem;
+
+    @media (max-width: $media-sm-576) {
+        gap: 30px;
+    }
 }
 
 .innovations__title-row {
@@ -15,7 +23,10 @@
     @media (max-width: 1585px) {
         flex-direction: column;
         align-items: center;
-        flex-direction: column-reverse;
+    }
+
+    @media (max-width: $media-sm-576) {
+        flex-direction: column;
     }
 
     .innovations__img {
@@ -26,7 +37,7 @@
         }
 
         @media (max-width: $media-lg) {
-            max-width: 520px;
+            max-width: 100%;
         }
     }
 }
@@ -45,7 +56,30 @@
         text-align: center;
 
         .text {
-            display: none;
+            font-size: 12px;
+            line-height: 15px;
+        }
+    }
+
+    .innovations-title {
+        @media (max-width: $media-lg) {
+            font-size: 35px;
+        }
+
+        @media (max-width: $media-sm-576) {
+            font-size: 25px;
+            line-height: 35px;
+        }
+
+        .section-title-accent {
+            @media (max-width: $media-lg) {
+                font-size: 35px;
+            }
+    
+            @media (max-width: $media-sm-576) {
+                font-size: 25px;
+                line-height: 35px;
+            }
         }
     }
 }
@@ -71,8 +105,20 @@
     padding: 3.125rem 2.5rem;
     max-width: 34.375rem;
 
+    @media (max-width: $media-sm-576) {
+        align-items: center;
+        text-align: center;
+    }
+
     .innovations--icon {
         color: var(--color-accent-green);
+
+        svg {
+            @media (max-width: $media-sm-576) {
+            max-width: 150px;
+        }
+        }
+        
     }
 }
 
@@ -80,4 +126,11 @@
     display: flex;
     flex-direction: column;
     gap: .625rem;
+
+    .innovations__item--text {
+
+        @media (max-width: $media-sm-576) {
+            font-size: 18px;
+        }
+    }
 }

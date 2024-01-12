@@ -36,6 +36,10 @@
     margin-bottom: 145px;
 
     @media (max-width: $media-sm-576) {
+        margin-bottom: 100px;
+    }
+
+    @media (max-width: $media-sm-576) {
         margin-bottom: 65px;
     }
 
